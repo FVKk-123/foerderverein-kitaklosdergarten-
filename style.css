@@ -101,3 +101,9 @@ form{display:grid;gap:13px}label{font-weight:700}input,textarea,select{width:100
 .supporter-logo-link:hover{opacity:.92}
 .menschen-logo{width:min(100%,720px);max-width:100%;max-height:none;height:auto;image-rendering:auto}
 .support-thanks-motto{text-align:center;font-size:1.12rem;font-weight:800;color:var(--dark);margin-top:22px}
+
+
+/* Persönliche Signatur unter dem Gründertext */
+.founder-signature { margin-top: 28px; padding-top: 14px; border-top: 1px solid rgba(34, 34, 34, 0.12); text-align: right; }
+.signature-name { font-family: "Segoe Script", "Brush Script MT", "URW Chancery L", cursive; font-size: 2.05rem; font-style: italic; font-weight: 600; letter-spacing: .02em; }
+.signature-role { margin-top: 2px; font-size: .92rem; opacity: .72; }
