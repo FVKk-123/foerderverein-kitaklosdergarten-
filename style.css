@@ -107,3 +107,10 @@ form{display:grid;gap:13px}label{font-weight:700}input,textarea,select{width:100
 .founder-signature { margin-top: 28px; padding-top: 14px; border-top: 1px solid rgba(34, 34, 34, 0.12); text-align: right; }
 .signature-name { font-family: "Segoe Script", "Brush Script MT", "URW Chancery L", cursive; font-size: 2.05rem; font-style: italic; font-weight: 600; letter-spacing: .02em; }
 .signature-role { margin-top: 2px; font-size: .92rem; opacity: .72; }
+
+/* Förderpartner */
+.funding-card{text-align:center;max-width:1050px;margin:0 auto;padding:26px 28px}
+.funding-card h2{margin-top:0}
+.funding-lead{margin-bottom:22px}
+.funding-banner{display:block;width:100%;max-width:1000px;height:auto;margin:0 auto;border-radius:10px}
+@media(max-width:700px){.funding-card{padding:20px 14px}.funding-banner{border-radius:8px}}
